@@ -1,0 +1,200 @@
+Timestamp|ThreadId|ModuleId|TraceLevel|Message|Exception
+
+09:53.08|0009|00|0|Log created at 11/21/2018 9:53:08 AM with TraceLevel Info
+09:53.08|0009|00|0|Entry Assembly: ConsoleApplication3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+09:53.08|0009|00|0|Stack Assembly: UnifiedAutomation.UaBase, Version=2.6.1.0, Culture=neutral, PublicKeyToken=90c158e6f23d82c1
+09:53.08|0009|01|0|MODULE LOADED [1] UnifiedAutomation.Stack
+09:53.08|0009|00|0|***TRIAL***UaSdkNetEval-2.6.0_Eval-Win32-Binary -  ClientSDK enabled -  ServerSDK enabled - KM Builder - Unified Automation - 
+09:53.08|0009|02|0|MODULE LOADED [2] UnifiedAutomation.Server
+09:53.08|0009|01|4|Processing Command Line: {C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.vshost.exe}
+09:53.08|0009|01|2|No application certificate available. SubjectName=CN=GettingStartedServer/O=UnifiedAutomation/DC=Jackey-PC, StorePath=Config\own
+09:53.08|0009|01|1|Cannot open endpoint with SecurityProfile http://opcfoundation.org/UA/SecurityPolicy#Basic256 because an ApplicationInstance certificate is not available.
+09:53.08|0009|01|1|Cannot open endpoint with SecurityProfile http://opcfoundation.org/UA/SecurityPolicy#Basic128Rsa15 because an ApplicationInstance certificate is not available.
+09:53.08|0009|01|4|Added Endpoint (None): opc.tcp://Jackey-PC:48041/ [None:None:Binary]
+09:53.09|0009|03|0|MODULE LOADED [3] UnifiedAutomation.ServerInternal
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=17861
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=258
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=11879
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=11880
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=261
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=264
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=267
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=270
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=273
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=276
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=279
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=282
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=285
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=389
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=392
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=395
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=15901
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=20999
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=420
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=423
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=12190
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=12191
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=426
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=429
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=435
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=438
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=12193
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=12194
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=441
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=444
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=447
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=450
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=453
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=456
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=459
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=462
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=465
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=468
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=471
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=474
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=477
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=480
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=349
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=352
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=355
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=358
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=361
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=364
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=367
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=370
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=373
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=17606
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=17607
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=483
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=486
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=489
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=492
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=495
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=498
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=501
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=504
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=507
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=511
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=514
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=518
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=522
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=525
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=528
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=531
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=534
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=543
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=546
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=549
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=552
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=555
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=558
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=561
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=564
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=567
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=570
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=573
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=577
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=580
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=604
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=607
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=610
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=613
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=616
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=619
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=622
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=626
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=629
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=632
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=635
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=638
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=641
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=644
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=647
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=650
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=653
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=656
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=11216
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=11217
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=662
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=665
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=668
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=671
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=674
+09:53.09|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=677
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=680
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=11295
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=683
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=686
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=689
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=692
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=695
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=698
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=701
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=704
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=707
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=710
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=713
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=722
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=728
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=731
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=734
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=737
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=740
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=743
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=746
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=749
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=752
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=755
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=758
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=761
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=764
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=767
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=770
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=773
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=776
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=779
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=782
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=785
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=788
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=791
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=794
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=797
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=800
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=803
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=945
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=809
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=806
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=914
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=917
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=818
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=821
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=824
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=827
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=830
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=833
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=836
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=839
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=842
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=845
+09:53.10|0009|02|2|NodeManager ignoring cross reference to itself (most likely an unresolved reference in a NodeSet). SourceNodeId=i=848
+09:53.14|0018|01|4|SECURE CHANNEL CREATED [TcpClientChannel UA-TCP 2.6.1.0] [Channel=0/Token=1] Connected To: opc.tcp://localhost:4840/ [None/None/]
+09:53.14|0023|01|2|Cannot register with LDS because no suitable endpoint is available. Url=opc.tcp://localhost:4840/, UseSecurity=False
+09:53.19|0026|01|4|TCPSERVERCHANNEL SOCKET ATTACHED: 000007AC, ChannelId=1
+09:53.19|0010|01|4|SECURE CHANNEL CREATED [TcpServerChannel UA-TCP 2.6.1.0] [Channel=1/Token=1] Connected To: opc.tcp://jackey-pc:48041/ [None/None/]
+09:53.20|0026|01|2|[Bad] Unexpected error during OnReadComplete,|SocketException|An existing connection was forcibly closed by the remote host
+09:53.20|0028|01|4|TCPSERVERCHANNEL SOCKET ATTACHED: 0000083C, ChannelId=2
+09:53.20|0012|01|4|SECURE CHANNEL CREATED [TcpServerChannel UA-TCP 2.6.1.0] [Channel=2/Token=1] Connected To: opc.tcp://jackey-pc:48041/ [None/None/]
+09:53.20|0026|01|4|TCPSERVERCHANNEL ForceChannelFault Socket=000007AC, ChannelId=1, TokenId=1, Reason=[BadTcpInternalError]An existing connection was forcibly closed by the remote host An existing connection was forcibly closed by the remote host
+09:53.20|0026|01|4|Channel 1 closed gracefully.
+09:53.36|0029|01|4|TCPSERVERCHANNEL SOCKET ATTACHED: 0000086C, ChannelId=3
+09:53.36|0017|01|4|SECURE CHANNEL CREATED [TcpServerChannel UA-TCP 2.6.1.0] [Channel=3/Token=1] Connected To: opc.tcp://jackey-pc:48041/ [None/None/]
+09:53.36|0010|01|4|Channel 3 closed gracefully.
+09:53.36|0029|01|4|TCPSERVERCHANNEL SOCKET ATTACHED: 000008A4, ChannelId=4
+09:53.36|0011|01|4|SECURE CHANNEL CREATED [TcpServerChannel UA-TCP 2.6.1.0] [Channel=4/Token=1] Connected To: opc.tcp://jackey-pc:48041/ [None/None/]
+09:53.39|0018|01|4|Channel 4 closed gracefully.
+09:53.44|0029|01|4|TCPSERVERCHANNEL SOCKET ATTACHED: 0000086C, ChannelId=5
+09:53.44|0016|01|4|SECURE CHANNEL CREATED [TcpServerChannel UA-TCP 2.6.1.0] [Channel=5/Token=1] Connected To: opc.tcp://jackey-pc:48041/ [None/None/]
+09:53.44|0010|01|4|Channel 5 closed gracefully.
+09:53.44|0026|01|2|Channel 5 no longer exists.
+09:53.44|0029|01|4|TCPSERVERCHANNEL SOCKET ATTACHED: 000008D4, ChannelId=6
+09:53.44|0012|01|4|SECURE CHANNEL CREATED [TcpServerChannel UA-TCP 2.6.1.0] [Channel=6/Token=1] Connected To: opc.tcp://jackey-pc:48041/ [None/None/]

@@ -1,0 +1,12 @@
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\buildingautomation.xml
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\UnifiedAutomation.UaBase.dll
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\UnifiedAutomation.UaClient.dll
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\UnifiedAutomation.UaServer.dll
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\backup.xml
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\bin\Debug\XMLFile1.xml
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WriteOPCEquipmentService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IWriteOPCEquipmentService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://172.28.75.13:8111/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://172.28.75.13:8111/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://172.28.75.13:8111/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DM.MasterData" />
+      <xsd:import schemaLocation="http://172.28.75.13:8111/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/OPC.Common" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWriteOPCEquipmentService_WriteEquipment_InputMessage">
+    <wsdl:part name="parameters" element="tns:WriteEquipment" />
+  </wsdl:message>
+  <wsdl:message name="IWriteOPCEquipmentService_WriteEquipment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WriteEquipmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWriteOPCEquipmentService_WriteVariable_InputMessage">
+    <wsdl:part name="parameters" element="tns:WriteVariable" />
+  </wsdl:message>
+  <wsdl:message name="IWriteOPCEquipmentService_WriteVariable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WriteVariableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWriteOPCEquipmentService_ReadVariable_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadVariable" />
+  </wsdl:message>
+  <wsdl:message name="IWriteOPCEquipmentService_ReadVariable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadVariableResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWriteOPCEquipmentService">
+    <wsdl:operation name="WriteEquipment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWriteOPCEquipmentService/WriteEquipment" message="tns:IWriteOPCEquipmentService_WriteEquipment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWriteOPCEquipmentService/WriteEquipmentResponse" message="tns:IWriteOPCEquipmentService_WriteEquipment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteVariable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWriteOPCEquipmentService/WriteVariable" message="tns:IWriteOPCEquipmentService_WriteVariable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWriteOPCEquipmentService/WriteVariableResponse" message="tns:IWriteOPCEquipmentService_WriteVariable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadVariable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWriteOPCEquipmentService/ReadVariable" message="tns:IWriteOPCEquipmentService_ReadVariable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWriteOPCEquipmentService/ReadVariableResponse" message="tns:IWriteOPCEquipmentService_ReadVariable_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IWriteOPCEquipmentService" type="tns:IWriteOPCEquipmentService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IWriteOPCEquipmentService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WriteEquipment">
+      <soap12:operation soapAction="http://tempuri.org/IWriteOPCEquipmentService/WriteEquipment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteVariable">
+      <soap12:operation soapAction="http://tempuri.org/IWriteOPCEquipmentService/WriteVariable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadVariable">
+      <soap12:operation soapAction="http://tempuri.org/IWriteOPCEquipmentService/ReadVariable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WriteOPCEquipmentService">
+    <wsdl:port name="WSHttpBinding_IWriteOPCEquipmentService" binding="tns:WSHttpBinding_IWriteOPCEquipmentService">
+      <soap12:address location="http://172.28.75.13:8111/WriteOPCEquipmentService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://172.28.75.13:8111/WriteOPCEquipmentService</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

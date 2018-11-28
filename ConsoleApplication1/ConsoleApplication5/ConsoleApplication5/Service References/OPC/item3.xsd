@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://172.28.75.13:8111/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DM.MasterData" />
+  <xs:import schemaLocation="http://172.28.75.13:8111/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/OPC.Common" />
+  <xs:element name="WriteEquipment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DM.MasterData" minOccurs="0" name="cmd" nillable="true" type="q1:EquipmentCmd" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WriteEquipmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/OPC.Common" minOccurs="0" name="WriteEquipmentResult" nillable="true" type="q2:InvokeResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WriteVariable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="equipmentId" type="xs:long" />
+        <xs:element minOccurs="0" name="clientHandle" type="xs:int" />
+        <xs:element minOccurs="0" name="v" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WriteVariableResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/OPC.Common" minOccurs="0" name="WriteVariableResult" nillable="true" type="q3:InvokeResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadVariable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="equipmentId" type="xs:long" />
+        <xs:element minOccurs="0" name="clientHandle" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadVariableResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/OPC.Common" minOccurs="0" name="ReadVariableResult" nillable="true" type="q4:InvokeResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

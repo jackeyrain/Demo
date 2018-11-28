@@ -1,0 +1,10 @@
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\bin\Debug\RecordUW.exe
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\bin\Debug\RecordUW.pdb
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\RecordUW.csprojResolveAssemblyReference.cache
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\Laser_Fixture.Form1.resources
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\Laser_Fixture.Properties.Resources.resources
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\RecordUW.csproj.GenerateResource.Cache
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\RecordUW.exe
+E:\工作程序\_测试\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\RecordUW.pdb
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\RecordUW.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\_Record_UW\_Record_UW\Laser_Fixture\obj\x86\Debug\RecordUW.pdb

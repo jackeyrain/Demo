@@ -1,0 +1,32 @@
+###########################
+# UaModeler Project File  #
+# Generated at 28.11.2018 #
+###########################
+
+PROJECTNAME = BuildingAutomation
+
+TEMPLATESET = ($TEMPLATES)/net/v2_6/t0/net_server.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    buildingautomation.ua
+
+VARIABLES+= buildingautomation.ua: Namespace=BA; Organization=yourorganisztion; 
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    buildingautomation.ua: #008000
+
+PROJECTVARIABLES += GenerateDefaultApplication = false \
+    NetFramework = 4.6.1 \
+    ProjectNamespace = BuildingAutomation \
+    ProjectOrganization = 
+
+OUTPUTPATH = 
+
+GENERATE += buildingautomation.ua
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+

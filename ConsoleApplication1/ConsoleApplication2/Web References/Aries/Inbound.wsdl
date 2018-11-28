@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://Libra.com/Aries" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://Libra.com/Aries" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://Libra.com/Aries">
+      <s:element name="GoodsReceive">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderAsnInfo" type="tns:ArrayOfGoodsReceiveInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfGoodsReceiveInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="GoodsReceiveInfo" nillable="true" type="tns:GoodsReceiveInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GoodsReceiveInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Site" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RecLoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DetailNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShipFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PartNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RcptQty" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Uom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EffectiveDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SyncFlagID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GoodsReceiveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GoodsReceiveResult" type="tns:InvokeResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InvokeResultMessage">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SUMMARY" type="tns:RESULTSUMMARY" />
+          <s:element minOccurs="0" maxOccurs="1" name="MESSAGE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="XMLSCHEMA" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="RESULTSUMMARY">
+        <s:restriction base="s:string">
+          <s:enumeration value="SUCCESS" />
+          <s:enumeration value="WARNING" />
+          <s:enumeration value="FAIL" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GoodsTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="transferInfo" type="tns:TransferInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TransferInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TransferID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FromSite" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ToSite" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FromLoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ToLoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PartNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Qty" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="EffDT" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Comments" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SyncFlagID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GoodsTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GoodsTransferResult" type="tns:InvokeResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AriesBackFlush">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="backFlashInfo" type="tns:BackFlushInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BackFlushInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="PartNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BomCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RoutingCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QTY" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Site" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductionLine" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EffictiveDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Employee" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Operation" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Shift" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModIssrc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SyncFlagID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AriesBackFlushResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AriesBackFlushResult" type="tns:InvokeResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InnerGoodsTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="innerGoodsReceiveInfo" type="tns:ArrayOfInnerTransferInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInnerTransferInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="InnerTransferInfo" nillable="true" type="tns:InnerTransferInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="InnerTransferInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TransferID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Site" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FromLoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ToLoc" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EffDT" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Comments" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PartNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UOM" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Qty" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="SyncFlagID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InnerGoodsTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InnerGoodsTransferResult" type="tns:InvokeResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="closeOrderInfo" type="tns:CloseOrderInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CloseOrderInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Site" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderStatus" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CloseOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CloseOrderResult" type="tns:InvokeResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PickingList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pickingListInfo" type="tns:ArrayOfPickingListInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPickingListInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PickingListInfo" nillable="true" type="tns:PickingListInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PickingListInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Site" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BomCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Qty" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductLine" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PickingListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PickingListResult" type="tns:InvokeResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CycleCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cycleCountInfo" type="tns:CycleCountInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CycleCountInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="FromSite" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ToSite" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FromLoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ToLoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PartNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Qty" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="StockQty" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="EffDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SyncFlagID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CycleCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CycleCountResult" type="tns:InvokeResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GoodsReceiveSoapIn">
+    <wsdl:part name="parameters" element="tns:GoodsReceive" />
+  </wsdl:message>
+  <wsdl:message name="GoodsReceiveSoapOut">
+    <wsdl:part name="parameters" element="tns:GoodsReceiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="GoodsTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:GoodsTransfer" />
+  </wsdl:message>
+  <wsdl:message name="GoodsTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:GoodsTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="AriesBackFlushSoapIn">
+    <wsdl:part name="parameters" element="tns:AriesBackFlush" />
+  </wsdl:message>
+  <wsdl:message name="AriesBackFlushSoapOut">
+    <wsdl:part name="parameters" element="tns:AriesBackFlushResponse" />
+  </wsdl:message>
+  <wsdl:message name="InnerGoodsTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:InnerGoodsTransfer" />
+  </wsdl:message>
+  <wsdl:message name="InnerGoodsTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:InnerGoodsTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseOrder" />
+  </wsdl:message>
+  <wsdl:message name="CloseOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="PickingListSoapIn">
+    <wsdl:part name="parameters" element="tns:PickingList" />
+  </wsdl:message>
+  <wsdl:message name="PickingListSoapOut">
+    <wsdl:part name="parameters" element="tns:PickingListResponse" />
+  </wsdl:message>
+  <wsdl:message name="CycleCountSoapIn">
+    <wsdl:part name="parameters" element="tns:CycleCount" />
+  </wsdl:message>
+  <wsdl:message name="CycleCountSoapOut">
+    <wsdl:part name="parameters" element="tns:CycleCountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="InboundSoap">
+    <wsdl:operation name="GoodsReceive">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aries调用收货接口</wsdl:documentation>
+      <wsdl:input message="tns:GoodsReceiveSoapIn" />
+      <wsdl:output message="tns:GoodsReceiveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GoodsTransfer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aries调用移库接口</wsdl:documentation>
+      <wsdl:input message="tns:GoodsTransferSoapIn" />
+      <wsdl:output message="tns:GoodsTransferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AriesBackFlush">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aries调用生产汇报接口</wsdl:documentation>
+      <wsdl:input message="tns:AriesBackFlushSoapIn" />
+      <wsdl:output message="tns:AriesBackFlushSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InnerGoodsTransfer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aries调用内部看板收货接口</wsdl:documentation>
+      <wsdl:input message="tns:InnerGoodsTransferSoapIn" />
+      <wsdl:output message="tns:InnerGoodsTransferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aries调用关闭要货单接口</wsdl:documentation>
+      <wsdl:input message="tns:CloseOrderSoapIn" />
+      <wsdl:output message="tns:CloseOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PickingList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aries Picking List接口</wsdl:documentation>
+      <wsdl:input message="tns:PickingListSoapIn" />
+      <wsdl:output message="tns:PickingListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CycleCount">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aries 循环盘点</wsdl:documentation>
+      <wsdl:input message="tns:CycleCountSoapIn" />
+      <wsdl:output message="tns:CycleCountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="InboundSoap" type="tns:InboundSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GoodsReceive">
+      <soap:operation soapAction="http://Libra.com/Aries/GoodsReceive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GoodsTransfer">
+      <soap:operation soapAction="http://Libra.com/Aries/GoodsTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AriesBackFlush">
+      <soap:operation soapAction="http://Libra.com/Aries/AriesBackFlush" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InnerGoodsTransfer">
+      <soap:operation soapAction="http://Libra.com/Aries/InnerGoodsTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseOrder">
+      <soap:operation soapAction="http://Libra.com/Aries/CloseOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PickingList">
+      <soap:operation soapAction="http://Libra.com/Aries/PickingList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CycleCount">
+      <soap:operation soapAction="http://Libra.com/Aries/CycleCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="InboundSoap12" type="tns:InboundSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GoodsReceive">
+      <soap12:operation soapAction="http://Libra.com/Aries/GoodsReceive" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GoodsTransfer">
+      <soap12:operation soapAction="http://Libra.com/Aries/GoodsTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AriesBackFlush">
+      <soap12:operation soapAction="http://Libra.com/Aries/AriesBackFlush" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InnerGoodsTransfer">
+      <soap12:operation soapAction="http://Libra.com/Aries/InnerGoodsTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseOrder">
+      <soap12:operation soapAction="http://Libra.com/Aries/CloseOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PickingList">
+      <soap12:operation soapAction="http://Libra.com/Aries/PickingList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CycleCount">
+      <soap12:operation soapAction="http://Libra.com/Aries/CycleCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Inbound">
+    <wsdl:port name="InboundSoap" binding="tns:InboundSoap">
+      <soap:address location="http://localhost:45355/Inbound/aries/Inbound.asmx" />
+    </wsdl:port>
+    <wsdl:port name="InboundSoap12" binding="tns:InboundSoap12">
+      <soap12:address location="http://localhost:45355/Inbound/aries/Inbound.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

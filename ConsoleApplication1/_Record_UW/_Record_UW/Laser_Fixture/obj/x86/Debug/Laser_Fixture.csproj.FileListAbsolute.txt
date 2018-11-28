@@ -1,0 +1,10 @@
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.csprojResolveAssemblyReference.cache
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.Form1.resources
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.Properties.Resources.resources
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.csproj.GenerateResource.Cache
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\bin\Debug\Laser_Fixture.exe
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\bin\Debug\Laser_Fixture.pdb
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.exe
+E:\工作程序\_测试\Laser_FixDetect\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.pdb
+E:\工作程序\_测试\Laser_A288_Record\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.exe
+E:\工作程序\_测试\Laser_A288_Record\Laser_Fixture\Laser_Fixture\obj\x86\Debug\Laser_Fixture.pdb

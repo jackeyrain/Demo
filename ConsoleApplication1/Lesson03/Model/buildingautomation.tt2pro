@@ -1,0 +1,21 @@
+###########################
+# UaModeler Project File  #
+# Generated at 11.03.2016 #
+###########################
+
+PROJECTNAME = BuildingAutomation
+
+TEMPLATESET = ($TEMPLATES)/net/v2_5/t0/net_identifiers.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    buildingautomation.ua
+
+VARIABLES+= buildingautomation.ua: Namespace=BA; Organization=yourorganisation; 
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    buildingautomation.ua: #008000
+
+OUTPUTPATH = .
+
+GENERATE += buildingautomation.ua
+

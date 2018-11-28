@@ -1,0 +1,14 @@
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\UnifiedAutomation.UaBase.dll
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\UnifiedAutomation.UaClient.dll
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\UnifiedAutomation.UaClientControls.dll
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\UnifiedAutomation.UaServer.dll
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\bin\Debug\UnifiedAutomation.UaClientControls.xml
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

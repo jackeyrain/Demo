@@ -1,0 +1,7 @@
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\ConsoleApplication4\ConsoleApplication4\bin\Debug\XMLFile1.xml

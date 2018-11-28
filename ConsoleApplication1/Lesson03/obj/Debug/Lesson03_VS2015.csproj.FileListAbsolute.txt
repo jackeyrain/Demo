@@ -1,0 +1,18 @@
+d:\UaSdkNetBundleEval\bin\Debug\ServerLesson03.exe.config
+d:\UaSdkNetBundleEval\bin\Debug\ServerLesson03.exe
+d:\UaSdkNetBundleEval\bin\Debug\ServerLesson03.pdb
+d:\UaSdkNetBundleEval\examples\ServerGettingStarted\Lesson03\obj\Debug\ServerLesson03.exe
+d:\UaSdkNetBundleEval\examples\ServerGettingStarted\Lesson03\obj\Debug\ServerLesson03.pdb
+d:\UaSdkNetBundleEval\examples\ServerGettingStarted\Lesson03\obj\Debug\Lesson03_VS2015.csprojResolveAssemblyReference.cache
+F:\WorkSpace\bin\Debug\ServerLesson03.exe.config
+F:\WorkSpace\bin\Debug\ServerLesson03.exe
+F:\WorkSpace\bin\Debug\ServerLesson03.pdb
+F:\WorkSpace\UA Exampe\ServerGettingStarted\Lesson03\obj\Debug\Lesson03_VS2015.csprojResolveAssemblyReference.cache
+F:\WorkSpace\UA Exampe\ServerGettingStarted\Lesson03\obj\Debug\ServerLesson03.exe
+F:\WorkSpace\UA Exampe\ServerGettingStarted\Lesson03\obj\Debug\ServerLesson03.pdb
+C:\Users\uzhoj012\bin\Debug\ServerLesson03.exe.config
+C:\Users\uzhoj012\bin\Debug\ServerLesson03.exe
+C:\Users\uzhoj012\bin\Debug\ServerLesson03.pdb
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\Lesson03\obj\Debug\Lesson03_VS2015.csprojResolveAssemblyReference.cache
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\Lesson03\obj\Debug\ServerLesson03.exe
+C:\Users\uzhoj012\Desktop\ConsoleApplication1\Lesson03\obj\Debug\ServerLesson03.pdb
